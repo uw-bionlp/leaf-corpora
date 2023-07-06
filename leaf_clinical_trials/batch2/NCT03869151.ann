@@ -1,0 +1,9 @@
+E3	Condition:T3 Name:T6
+E4	Condition:T4 Name:T7
+E5	Condition:T5 Name:T8
+T3	Condition 34 66	child A Hepatocellular carcinoma
+T4	Condition 107 139	child C Hepatocellular carcinoma
+T5	Condition 160 173	heart failure
+T6	Condition-Name 34 66	child A Hepatocellular carcinoma
+T7	Condition-Name 107 139	child C Hepatocellular carcinoma
+T8	Condition-Name 160 173	heart failure

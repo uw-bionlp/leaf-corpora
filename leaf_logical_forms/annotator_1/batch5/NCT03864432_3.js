@@ -9,5 +9,5 @@ lab("fasting plasma glucose")
         obs("FPG")
     )
     .num_filter(
-        eq(val("70"), val("110"), unit("mg"), unit("dL"))
+        eq(val("70"), op(BETWEEN), val("110"), unit("mg"), unit("dL"))
     )

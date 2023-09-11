@@ -5,9 +5,12 @@
 '-  Patients that have standard contraindication() to proc("colonoscopy") in general ( e . g .  documented acute() cond("diverticulitis") , cond("fulminant colitis") and known or possible() cond("perforation") ) .'
 
 contraindication(
-    cond("diverticulitis")
-        .acute(),
-    cond("fulminant colitis"),
-    cond("perforation")
-        .possible()
+    proc("colonoscopy")
 )
+    .equiv(
+        cond("diverticulitis")
+            .acute(),
+        cond("fulminant colitis"),
+        cond("perforation")
+            .possible()
+    )
